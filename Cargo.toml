@@ -1,0 +1,13 @@
+[package]
+name = "mandan"
+version = "0.1.0"
+authors = ["Marco Sarti <marco.sarti@plansoft.it>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+uuid = { version = "0.8.1", features = ["serde", "v4"] }
+byteorder = "1"
+tempfile = "3"
+rand = "0.7"
